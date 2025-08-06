@@ -1,0 +1,47 @@
+Project: Dijkstra-C by Maximetinu
+URL-https://github.com/Maximetinu/Dijkstra-C
+📁 Project Overview
+This project provides an implementation of Dijkstra's shortest path algorithm using an adjacency graph. It supports both directed and bidirectional graphs and offers various input/output options, including terminal and CSV file support. Additionally, it can visualize computed shortest paths using Graphviz.
+GitHub
+
+🔍 Code Structure Analysis
+The project is organized into multiple header files, each serving a specific purpose:
+
+dijkstra.h:
+
+Contains the core algorithm for calculating the shortest path.
+GitHub
+
+IO_dijkstra.h:
+
+Handles input and output operations, including reading graph data and displaying results.
+GitHub
+
+graph_drawer.h:
+
+Manages the visualization of the graph using Graphviz.
+
+🧩 Function Documentation
+dijkstra.h:
+
+dijkstra():
+
+Implements Dijkstra's algorithm to find the shortest path from a source node to all other nodes in the graph.
+
+IO_dijkstra.h:
+
+read_graph_from_csv():
+
+Reads graph data from a CSV file and constructs the adjacency graph.
+GitHub
+
+print_shortest_path():
+
+Displays the shortest path from the source node to a target node.
+
+graph_drawer.h:
+
+generate_graph_image():
+
+Generates a visual representation of the graph using Graphviz.
+
